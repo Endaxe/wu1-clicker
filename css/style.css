@@ -2,8 +2,9 @@
 /* @link https://utopia.fyi/space/calculator?c=320,18,1.2,1240,20,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 :root {
-    --color-lighter: hsl(80, 10%, 90%);
-    --color-light: hsl(80, 10%, 80%);
+    --color-lighter: hsl(0, 0%, 100%);
+    --color-light: hsl(0, 0%, 100%);
+    --color-gray: hsl(0, 0%, 89%);
     --color-dark: hsl(360, 10%, 10%);
     --color-dark-transparent: hsla(360, 10%, 10%, 0.2);
 
@@ -23,7 +24,7 @@
 }
 
 body {
-    background-color: var(--color-light);
+    background-color: var(--color-gray);
     color: var(--color-dark);
     font-family: sans-serif;
     font-size: var(--step-0);
@@ -141,7 +142,7 @@ audio {
     width: var(--space-4xl-5xl);
     height: var(--space-4xl-5xl);
     font-size: var(--step-2);
-    background: url('../img/brett-meliti-RgkYMfFopIA-unsplash-removebg-preview.png');
+    background: url('../img/pngegg.png');
     background-size: cover;
     background-position: center;
     border: 2px solid transparent;
@@ -180,16 +181,16 @@ audio {
  * meddelanden. Javascript används för att lägga till stilen på meddelandet
  */
 .warning {
-    background-color: palevioletred;
+    background-color: rgb(255, 81, 81);
 }
 
 .success {
-    background-color: mediumspringgreen;
+    background-color: rgb(0, 250, 17);
 }
 
 .achievement {
     color: var(--color-light);
-    background-color: rebeccapurple;
+    background-color: rgb(206, 196, 5);
 }
 
 /* dessa kort används för spelets uppgraderingar 
