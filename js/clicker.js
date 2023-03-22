@@ -37,22 +37,22 @@ let active = false; // exempel för att visa att du kan lägga till klass för a
 
 let achievements = [
     {
-        description: 'Pizzerian är redo att öppna, grattis! ',
+        description: 'Grattis, första gången du lyckas med något!',
         requiredUpgrades: 1,
         acquired: false,
     },
     {
-        description: 'Nu börjar det likna något, fortsätt baka!',
+        description: 'Nu ser det ätbart nu iallafall, fortsätt!',
         requiredUpgrades: 10,
         acquired: false,
     },
     {
-        description: 'Klickare, med licens att klicka!',
+        description: 'Mer än 10 har du väl din åsna!',
         requiredClicks: 10,
         acquired: false,
     },
     {
-        description: 'Tac-2 god!',
+        description: 'Sluta använda autoclicker!',
         requiredClicks: 10000,
         acquired: false,
     },
@@ -164,16 +164,19 @@ window.addEventListener('load', (event) => {
 upgrades = [
     {
         name: 'Kebab pizza',
+        class: 'kebab',
         cost: 10,
         amount: 1,
     },
     {
         name: 'Vesuvio',
+        class: 'vesuvio',
         cost: 50,
         clicks: 2,
     },
     {
         name: 'Ugn',
+        class: 'fye',
         cost: 100,
         amount: 10,
     },
@@ -205,6 +208,7 @@ upgrades = [
 function createCard(upgrade) {
     const card = document.createElement('div');
     card.classList.add('card');
+    card.classList.add(upgrade.class);
     const header = document.createElement('p');
     header.classList.add('title');
     const cost = document.createElement('p');
@@ -220,12 +224,12 @@ function createCard(upgrade) {
             acquiredUpgrades++;
             money -= upgrade.cost;
             upgrade.cost *= 1.5;
-            cost.textContent = 'Köp för ' + upgrade.cost + ' benbitar';
+            cost.textContent = 'Köp för ' + Math.trunc(upgrade.cost) + ' Slices';
             moneyPerSecond += upgrade.amount ? upgrade.amount : 0;
             moneyPerClick += upgrade.clicks ? upgrade.clicks : 0;
             message('Grattis du har köpt en uppgradering!', 'success');
         } else {
-            message('Du har inte råd.', 'warning');
+            message('Hahah du har inte råd.', 'warning');
         }
     });
 
