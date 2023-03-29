@@ -182,6 +182,7 @@ upgrades = [
     },
     {
         name: 'Bagar lärling',
+        class: 'bagar',
         cost: 1000,
         amount: 100,
     },

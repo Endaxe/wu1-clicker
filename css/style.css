@@ -233,6 +233,10 @@ audio {
     color: black;
 }
 
+.kebab:hover {
+    color: var(--color-hova);
+}
+
 
 .vesuvio {
     background: url('../img/peez.jpg');
@@ -244,12 +248,22 @@ audio {
     color: var(--color-hova);
 }
 
+.bagar {
+    background: url('../img/bagar.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.bagar:hover {
+    color: var(--color-hova);
+}
+
 
 .fye {
     background: url('../img/fye.jpg');
     background-size: cover;
-    size-adjust: 100px;
-    color: black;
+    size-adjust: 20px;
+    color: white;
 }
 
 .fye:hover {

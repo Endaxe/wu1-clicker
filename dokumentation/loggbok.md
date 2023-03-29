@@ -3,7 +3,7 @@ La till bild till button
 la till en bild till headern 
 MER...
 
-## 2  (20203.03.22)
+## 2  (2023.03.22)
 
 Jag la till vita borders runt om game button och uppgraderings knapparna
 Gjorde kanterna runda.
@@ -12,3 +12,8 @@ Gjorde kanterna runda.
 Börjat lägga till flera bilder, i varsin knapp
 bytte font, textsnitt, storlek och justerade mellanrummen till en passande storlek.
 bytte färg på a-link 
+
+## 3 (2023.03.22)
+
+Gjorde några finishing touches
+Fixade länkarna och bytte ut bilder med passande text färg
