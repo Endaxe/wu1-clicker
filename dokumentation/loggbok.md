@@ -2,6 +2,7 @@
 La till bild till button
 la till en bild till headern 
 gjorde om text (slices, baka, kebab pizza, ugn...)
+mer..
 
 
 ## 2  (2023.03.22)
