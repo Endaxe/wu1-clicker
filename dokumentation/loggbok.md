@@ -1,12 +1,13 @@
 ## 1
 La till bild till button
 la till en bild till headern 
-MER...
+gjorde om text (slices, baka, kebab pizza, ugn...)
+
 
 ## 2  (2023.03.22)
 
-Jag la till vita borders runt om game button och uppgraderings knapparna
-Gjorde kanterna runda.
+Jag la till vita borders runt om game button och uppgraderings knapparna så att dem står ut.
+Gjorde kanterna runda så att inte såg lika vasst ut.
 Ändrade bakrunden till mörkare färg.
 ändrade text färg och justerade hover färger på både buttons och texten.
 Börjat lägga till flera bilder, i varsin knapp
@@ -17,3 +18,6 @@ bytte färg på a-link
 
 Gjorde några finishing touches
 Fixade länkarna och bytte ut bilder med passande text färg
+Justerade storlekar 
+open link = blank ny flik
+hover färg
