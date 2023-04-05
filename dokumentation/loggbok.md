@@ -24,3 +24,15 @@ open link = blank ny flik
 hover färg
 
 ## feedback
+
+Milton:
+bra - snygg sexig font
+dålig - ugn bilden
+
+Gabbe:
+bra -Enkel font som är lätt att läsa
+dåligt - ugn bilden igen är otydlig
+
+
+Min respons: Svårt att hitta en tydlig ugn bild som  var gratis
+letar efter en annan.
