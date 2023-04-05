@@ -2,7 +2,7 @@
 La till bild till button
 la till en bild till headern 
 gjorde om text (slices, baka, kebab pizza, ugn...)
-mer..
+Kod
 
 
 ## 2  (2023.03.22)
@@ -22,3 +22,5 @@ Fixade länkarna och bytte ut bilder med passande text färg
 Justerade storlekar 
 open link = blank ny flik
 hover färg
+
+## feedback
