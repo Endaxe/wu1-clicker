@@ -1,5 +1,15 @@
 # Clicker, webbprojekt
 
+```
+    {
+        title: 'Pizzabaker clicker',
+        tagline: 'BAka Feta smarriga Pizzor kom in!!!!',
+        url: 'https://endaxe.github.io/wu1-clicker/',
+        git: 'https://github.com/Endaxe/wu1-clicker',
+        author: 'Endo'
+    },
+```
+
 Du har fått i uppdrag att designa och skapa ett clicker-spel från Kakmonstret AB.
 Till ditt förfogande har du lite kod som en tidigare anställd lämnat efter sig, använd den.
 
